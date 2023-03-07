@@ -3,9 +3,11 @@ namespace CMP1903M_A01_2223
 {
     public class Testing
     {
-        public void shuffleTest()
+        public void shuffleTest(int typeOfShuffle)
         {
-            Pack.shuffleCardPack(1);
+            Pack.shuffleCardPack(typeOfShuffle);
+            Card oneCardDeal = Pack.deal();
+            Console.WriteLine($"One Card deal, Shuffle type {typeOfShuffle}. Suit: {oneCardDeal.Suit} Value: {oneCardDeal.Value}");
         }
     }
 

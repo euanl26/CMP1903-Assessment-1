@@ -11,12 +11,9 @@ namespace CMP1903M_A01_2223
         static void Main(string[] args)
         {
             Testing test = new Testing();
-            test.shuffleTest();
-            List<Card> shuffledCards = Pack.dealCard(52);
-            foreach (Card card in shuffledCards)
-            {
-                Console.WriteLine(card.Suit);
-            }
+
+            test.shuffleTest(1);
+
         }
 
     }

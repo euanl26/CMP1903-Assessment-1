@@ -32,7 +32,7 @@ namespace CMP1903M_A01_2223
             if (typeOfShuffle == 1)
             {
                 //Fisher-Yates shuffle
-                for (int i = 51; i > 0; i--)
+                for (int i = pack.Length-1; i > 0; i--)
                 {
                     int j = r.Next(i + 1);
                     Card lastValue = pack[i];
@@ -44,15 +44,23 @@ namespace CMP1903M_A01_2223
             {
                 //Riffle shuffle
                 List<Card> tempPack = new List<Card>();
-                for (int counter = 0; counter < 5; counter++)
-                {
-                    for (int i = 0; i < 26; i++)
+                for (int i = 0; i < 26; i++)
                     {
-                        for (int j = 26; j < 52; j++)
+                       for (int j = 26; j < 52; j++)
                        {
                            tempPack.Add(pack[i]);
                            tempPack.Add(pack[j]);
                        } 
+                    }
+                for (int counter = 1; counter < 10; counter++)
+                {
+                    for (int i = 0; i < 26; i++)
+                    {
+                        for (int j = 26; j < 52; j++)
+                        {
+                            tempPack.Add(tempPack[i]);
+                            tempPack.Add(tempPack[j]);
+                        }
                     }
                 }
                 pack = tempPack.ToArray();

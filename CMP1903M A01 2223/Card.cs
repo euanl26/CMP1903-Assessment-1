@@ -15,11 +15,10 @@ namespace CMP1903M_A01_2223
         public int Value { get; set; }
         public int Suit { get; set; }
 
-        public Card (int _Value, int _Suit)
+        public Card(int _Value, int _Suit)
         {
             Value = _Value;
             Suit = _Suit;
         }
-
     }
 }
