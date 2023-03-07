@@ -1,0 +1,15 @@
+/Users/euanlevey/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.csproj.AssemblyReference.cache
+/Users/euanlevey/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.csproj.CoreCompileInputs.cache
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/bin/Debug/CMP1903M A01 2223.exe.config
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/bin/Debug/CMP1903M A01 2223.exe
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/bin/Debug/CMP1903M A01 2223.pdb
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.csproj.AssemblyReference.cache
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.csproj.SuggestedBindingRedirects.cache
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.csproj.CoreCompileInputs.cache
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.exe
+//mac/Home/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.pdb
+/Users/euanlevey/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/bin/Debug/CMP1903M A01 2223.exe.config
+/Users/euanlevey/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/bin/Debug/CMP1903M A01 2223.exe
+/Users/euanlevey/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/bin/Debug/CMP1903M A01 2223.pdb
+/Users/euanlevey/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.exe
+/Users/euanlevey/Documents/School/University/OOP/Assessment 1/CMP1903M A01 2223/CMP1903M A01 2223/obj/Debug/CMP1903M A01 2223.pdb
