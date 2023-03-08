@@ -11,7 +11,7 @@ namespace CMP1903M_A01_2223
         //Array to hold the deck of cards
         private static Card[] pack;
 
-        //Constructor initialising the pack of cards and adding each of the 52 cards.
+        //Method to initialise the pack of cards and add each of the 52 cards.
         public static void addCards()
         {
             pack = new Card[52];
@@ -29,6 +29,12 @@ namespace CMP1903M_A01_2223
         //Method to shuffle the pack of cards based on the type of shuffle specified.
         public static bool shuffleCardPack(int typeOfShuffle)
         {
+            //Ensures one complete pack of cards is used.
+            if (pack.Length != 52)
+            {
+                Console.WriteLine("The pack of cards is incomplete or there is more than one pack. Please try again.");
+            }
+
             Random r = new Random();
             //Shuffles the pack based on the type of shuffle
             if (typeOfShuffle == 1)
@@ -71,9 +77,13 @@ namespace CMP1903M_A01_2223
                 //Update the pack with the new shuffled pack.
                 pack = tempPack.ToArray();
             }
+            else if (typeOfShuffle == 3)
+            {
+                return false;
+            }
             else
             {
-                //Invalid shuffle type
+                Console.WriteLine("An invalid shuffle type was chosen and as a result the pack was not shuffled.");
                 return false;
             }
             return true;

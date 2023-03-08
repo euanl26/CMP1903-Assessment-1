@@ -15,10 +15,13 @@ namespace CMP1903M_A01_2223
             test.oneCardDeal(1);
             test.oneCardDeal(2);
             test.oneCardDeal(3);
+            test.oneCardDeal(4);
             Console.WriteLine("");
             test.multiCardDeal(1, 5);
             test.multiCardDeal(2, 5);
             test.multiCardDeal(3, 5);
+            test.multiCardDeal(4, 5);
+
         }
 
     }
