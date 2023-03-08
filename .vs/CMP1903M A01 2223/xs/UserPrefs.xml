@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{1A2F9CA1-E6D8-4662-B3E5-32190DD347C7}|Default">
-  <MonoDevelop.Ide.ItemProperties.CMP1903M_220A01_2202223 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CMP1903M A01 2223/Testing.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CMP1903M A01 2223/Card.cs">
     <Files>
-      <File FileName="CMP1903M A01 2223/Pack.cs" />
-      <File FileName="CMP1903M A01 2223/Program.cs" />
+      <File FileName="CMP1903M A01 2223/Pack.cs" Line="1" Column="1" />
+      <File FileName="CMP1903M A01 2223/Program.cs" Line="1" Column="1" />
       <File FileName="CMP1903M A01 2223/Testing.cs" Line="1" Column="1" />
+      <File FileName="CMP1903M A01 2223/Card.cs" Line="27" Column="13" />
+      <File FileName="CMP1903M A01 2223/App.config" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +17,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CMP1903M_220A01_2202223 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -8,10 +8,11 @@ namespace CMP1903M_A01_2223
 {
     public class Pack
     {
-
+        //Array to hold the deck of cards
         private static Card[] pack;
 
-        static Pack()
+        //Constructor initialising the pack of cards and adding each of the 52 cards.
+        public static void addCards()
         {
             pack = new Card[52];
             int index = 0;
@@ -25,15 +26,17 @@ namespace CMP1903M_A01_2223
             }
         }
 
+        //Method to shuffle the pack of cards based on the type of shuffle specified.
         public static bool shuffleCardPack(int typeOfShuffle)
         {
             Random r = new Random();
-            //Shuffles the pack based on the type of shuffle]
+            //Shuffles the pack based on the type of shuffle
             if (typeOfShuffle == 1)
             {
                 //Fisher-Yates shuffle
                 for (int i = pack.Length-1; i > 0; i--)
                 {
+                    //Picks a random card from the pack to swap with the last card in the pack.
                     int j = r.Next(i + 1);
                     Card lastValue = pack[i];
                     pack[i] = pack[j];
@@ -44,6 +47,7 @@ namespace CMP1903M_A01_2223
             {
                 //Riffle shuffle
                 List<Card> tempPack = new List<Card>();
+                //Interleave the top and bottom halves of the deck.
                 for (int i = 0; i < 26; i++)
                     {
                        for (int j = 26; j < 52; j++)
@@ -52,7 +56,8 @@ namespace CMP1903M_A01_2223
                            tempPack.Add(pack[j]);
                        } 
                     }
-                for (int counter = 1; counter < 10; counter++)
+                //Repeat the interleaving process ten times.
+                for (int counter = 0; counter < 10; counter++)
                 {
                     for (int i = 0; i < 26; i++)
                     {
@@ -63,6 +68,7 @@ namespace CMP1903M_A01_2223
                         }
                     }
                 }
+                //Update the pack with the new shuffled pack.
                 pack = tempPack.ToArray();
             }
             else
@@ -73,6 +79,7 @@ namespace CMP1903M_A01_2223
             return true;
 
         }
+        //Method to deal one card from the top of the pack.
         public static Card deal()
         {
             //Deals one card
@@ -81,10 +88,12 @@ namespace CMP1903M_A01_2223
             return topCard;
 
         }
+        //Method to deal multiple cards from the pack, specified by "amount".
         public static List<Card> dealCard(int amount)
         {
+            //Initalises the list for the dealt cards.
             List <Card> dealtCards = new List<Card>();
-            //Deals the number of cards specified by 'amount'
+
             for (int i = 0; i < amount; i++)
             {
                 Card tempCard = deal();
